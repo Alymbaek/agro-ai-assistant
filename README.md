@@ -42,6 +42,18 @@ LLM is used **only** for explanation and recommendations.
 ---
 
 ## ▶️ Run the Project
-
-```bash
 uvicorn app.main:app --reload
+
+after run: 
+Main endpoint: /analyze-with-agent
+
+## 📌 Example Request
+{
+  "region": "Osh",
+  "month": 6,
+  "avg_temp": 24.8,
+  "max_temp": 31.2,
+  "precipitation": 1.3
+}
+
+
