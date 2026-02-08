@@ -1,0 +1,22 @@
+argo-ai/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+
+# Vectorstore (RAG)
+app/rag/vectorstore/
+
+# OS
+.DS_Store

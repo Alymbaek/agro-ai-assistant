@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+langgraph
+langchain
+langchain-google-genai
+sentence-transformers
+faiss-cpu
